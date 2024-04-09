@@ -27,8 +27,8 @@ body {
 
   a {
     text-decoration: none;
-    margin-left: 200px;
     color: inherit;
+  
   }
 }
 
@@ -39,6 +39,48 @@ body {
 
 /* styles header */
   /* Adicione aqui os estilos pro header */
+  header {
+    background-color: #032f4c;
+    background-image: linear-gradient(to left, #032f4c,#246591 );
+
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+
+}
+.topmain{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+.logo{
+  border-radius: 30px;
+}
 /* styles header */
 
 /* styles Main */
