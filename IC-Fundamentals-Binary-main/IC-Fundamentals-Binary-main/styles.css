@@ -1,0 +1,97 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 1rem;
+  background-color: #F1F5F9;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+}
+
+/* styles header */
+  /* Adicione aqui os estilos pro header */
+  header {
+    background-color: #032f4c;
+    background-image: linear-gradient(to left, #032f4c,#246591 );
+
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+
+}
+.topmain{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+.logo{
+  border-radius: 30px;
+}
+/* styles header */
+
+/* styles Main */
+  /* Adicione aqui os estilos pro main */
+/* styles Main */
+
+/* styles Section */
+  /* Adicione aqui os estilos pro section */
+/* styles Section */
+
+/* styles footer */
+  /* Adicione aqui os estilos pro footer */
+/* styles footer */
+
