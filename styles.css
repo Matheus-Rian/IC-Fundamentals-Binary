@@ -38,18 +38,18 @@ body {
 }
 
 /* styles header */
-  /* Adicione aqui os estilos pro header */
-  header {
-    background-color: #032f4c;
-    background-image: linear-gradient(to left, #032f4c,#246591 );
 
-    color: white;
-    padding: 10px 0;
-    width: 100%;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    
+header {
+  background-color: #032f4c;
+  background-image: linear-gradient(to left, #032f4c,#246591 );
+
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
 }
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -58,7 +58,8 @@ nav ul {
   align-items: center;
 
 }
-.topmain{
+
+.topmain {
   display: flex;
   align-items: center;
   gap:10px;
@@ -72,20 +73,43 @@ nav ul li a {
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
-
 }
 
 nav ul li a:hover {
   color: #ddd;
 }
-.logo{
+
+.logo {
   border-radius: 30px;
 }
 /* styles header */
 
 /* styles Main */
-  /* Adicione aqui os estilos pro main */
-/* styles Main */
+section.topo-do-site{
+    padding: 80px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.topo-do-site h1 span{
+    color: #31CB00;
+}
+
+.topo-do-site p{
+    color: #fff;
+}
+
+.topo-do-site .txt-topo-site p{
+    margin: 40px 0;
+}/* styles Main */
 
 /* styles Section */
   /* Adicione aqui os estilos pro section */
