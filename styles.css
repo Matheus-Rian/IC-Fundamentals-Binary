@@ -27,8 +27,8 @@ body {
 
   a {
     text-decoration: none;
-    margin-left: 200px;
     color: inherit;
+  
   }
 }
 
@@ -38,51 +38,50 @@ body {
 }
 
 /* styles header */
-  header{
-    padding: 40px 4%;    
+
+header {
+  background-color: #032f4c;
+  background-image: linear-gradient(to left, #032f4c,#246591 );
+
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
 }
 
-header > .interface{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+
 }
 
-header a{
-    color: #ffffff70;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
+.topmain {
+  display: flex;
+  align-items: center;
+  gap:10px;
 }
 
-header a:hover{
-    color: #31CB00;
-    transform: scale(1.04);
+nav ul li {
+  margin: 0 20px;
 }
 
-header nav ul{
-    list-style: none;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-header nav ul li{
-    display: inline-block;
-    padding: 0 40px;
+nav ul li a:hover {
+  color: #ddd;
 }
 
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #31CB00;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+.logo {
+  border-radius: 30px;
 }
-
-header .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #2fcb00;
-}
-
 /* styles header */
 
 /* styles Main */
