@@ -41,7 +41,7 @@ body {
 
 header {
   background-color: #032f4c;
-  background-image: linear-gradient(to left, #032f4c,#246591 );
+  background-image: linear-gradient(to left, #032f4c,#246591);
 
   color: white;
   padding: 10px 0;
@@ -95,7 +95,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site h1{
-    color: #fff;
+    color: #000;
     font-size: 30px;
 }
 
@@ -104,7 +104,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site p{
-    color: #fff;
+    color: #000;
 }
 
 .topo-do-site .txt-topo-site p{
