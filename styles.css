@@ -45,9 +45,12 @@ header {
 
   color: white;
   padding: 10px 0;
-  width: 100%;
+  width: 1150px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
+  position: fixed;
+  margin-top: 3px;
+  transform: translateY(-20px);
 }
 
 nav ul {
@@ -111,9 +114,173 @@ section.topo-do-site .flex{
     margin: 40px 0;
 }/* styles Main */
 
-/* styles Section */
-  /* Adicione aqui os estilos pro section */
-/* styles Section */
+.integrantes {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.integrantes .header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.integrantes .person {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.integrantes .person:hover {
+  transform: translateY(-10px);
+}
+
+.integrantes .person img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.integrantes .person h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.integrantes .person p {
+  margin-bottom: 15px;
+}
+
+.integrantes .person .social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.integrantes .person .social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+svg{
+  width:30px;
+  height: 40px;;
+  color-scheme: #fff;
+  }
+
+
+.integrantes .person .social-links a:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.integrantes .footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.person {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.person:hover {
+  transform: translateY(-10px);
+}
+
+.person img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.person h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.person p {
+  margin-bottom: 15px;
+}
+
+.person .social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.person .social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.person .social-links a:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
 
 /* styles footer */
   /* Adicione aqui os estilos pro footer */
