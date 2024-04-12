@@ -100,24 +100,7 @@ section.topo-do-site .flex{
 .topo-do-site h1{
     color: #000;
     font-size: 30px;
-    
-}
 
-.topo-do-site h1 span{
-    color: #62a9d3;
-}
-
-.topo-do-site p{
-    color: #000;
-    background-color: #ffffff;
-    width: 1000px;
-    height:100px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
-    
-}
 
 .topo-do-site .txt-topo-site p{
     margin: 40px 0;
