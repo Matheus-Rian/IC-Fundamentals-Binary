@@ -28,7 +28,6 @@ body {
   a {
     text-decoration: none;
     color: inherit;
-  
   }
 }
 
@@ -41,14 +40,13 @@ body {
 
 header {
   background-color: #032f4c;
-  background-image: linear-gradient(to left, #032f4c,#246591);
+  background-image: linear-gradient(to left, #032f4c, #246591);
 
   color: white;
   padding: 10px 0;
   width: 1150px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
-  position: fixed;
   margin-top: 3px;
   transform: translateY(-20px);
 }
@@ -65,7 +63,7 @@ nav ul {
 .topmain {
   display: flex;
   align-items: center;
-  gap:10px;
+  gap: 10px;
 }
 
 nav ul li {
@@ -85,26 +83,29 @@ nav ul li a:hover {
 .logo {
   border-radius: 30px;
 }
+
 /* styles header */
 
 /* styles Main */
-section.topo-do-site{
-    padding: 80px 4%;
+section.topo-do-site {
+  padding: 80px 4%;
 }
 
-section.topo-do-site .flex{
-    align-items: center;
-    justify-content: center;
+section.topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
 }
 
-.topo-do-site h1{
-    color: #000;
-    font-size: 30px;
+.topo-do-site h1 {
+  color: #000;
+  font-size: 30px;
+}
 
+.topo-do-site .txt-topo-site p {
+  margin: 40px 0;
+}
 
-.topo-do-site .txt-topo-site p{
-    margin: 40px 0;
-}/* styles Main */
+/* styles Main */
 
 .integrantes {
   font-family: Arial, sans-serif;
@@ -169,11 +170,12 @@ section.topo-do-site .flex{
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-svg{
-  width:30px;
-  height: 40px;;
+
+svg {
+  width: 30px;
+  height: 40px;
   color-scheme: #fff;
-  }
+}
 
 
 .integrantes .person .social-links a:hover {
@@ -187,6 +189,7 @@ svg{
   padding: 20px 0;
   text-align: center;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -275,7 +278,7 @@ body {
 
 
 /* styles footer */
-  /* Adicione aqui os estilos pro footer */
+/* Adicione aqui os estilos pro footer */
 /* styles footer */
 footer {
   font-family: Arial, Helvetica, sans-serif;
@@ -286,21 +289,24 @@ footer {
   box-shadow: 0 5px 20px;
 }
 
-.container_footer  {
+.container_footer {
   margin: auto;
   display: flex;
-justify-content: space-between;
-align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .info {
   flex: 1;
   padding: 1%;
 }
+
 .contato form {
   display: flex;
   flex-direction: column;
 
 }
+
 .contato input,
 .contato textarea,
 .contato button {
