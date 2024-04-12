@@ -10,6 +10,8 @@ converter números entre decimal e binário. O site contém:
 * Conversão de números decimais para binário;
 * Sua estrutura e sua importância na representação de dados em computadores.
 
+### [Clique aqui para acessar o site](https://matheus-rian.github.io/IC-Fundamentals-Binary/)
+
 ## Grupo 3
 
 Integrantes:
