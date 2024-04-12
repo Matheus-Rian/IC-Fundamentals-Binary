@@ -100,15 +100,7 @@ section.topo-do-site .flex{
 .topo-do-site h1{
     color: #000;
     font-size: 30px;
-}
 
-.topo-do-site h1 span{
-    color: #31CB00;
-}
-
-.topo-do-site p{
-    color: #000;
-}
 
 .topo-do-site .txt-topo-site p{
     margin: 40px 0;
@@ -285,4 +277,51 @@ body {
 /* styles footer */
   /* Adicione aqui os estilos pro footer */
 /* styles footer */
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a9ddff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 20px;
+}
 
+.container_footer  {
+  margin: auto;
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.info {
+  flex: 1;
+  padding: 1%;
+}
+.contato form {
+  display: flex;
+  flex-direction: column;
+
+}
+.contato input,
+.contato textarea,
+.contato button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contato button {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contato button:hover {
+  background-color: #0056b3;
+}
+
+.info p {
+  margin-bottom: 1px;
+  padding: 2px;
+}
